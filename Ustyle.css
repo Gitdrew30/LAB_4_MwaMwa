@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    max-width: 800px;
+    margin: 40px auto;
+    margin-top: 200px;
+    padding: 50px;
+    background-color: lavender  ;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .container1 {
+        max-width: 280px;
+        margin: 40px auto;
+        margin-top: 220px;
+        padding: 20px;
+        background-color: lavender  ;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+}
+
+.navbar {
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-brand img {
+    margin: 5px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+.active {
+    background-color:lightsteelblue;
+    border-radius: 15px;
+    color: #fff;
+}
+.social a {
+    margin: 15px;
+}
+.self {
+    text-align: center;
+}
+.CodeMe {
+    font-size: 12px;
+    font-family: monospace;
+}
+.CuteMo {
+    font-size: 1rem;
+}
+.Title {
+    font-size: 2rem;
+    text-align: center;
+}
